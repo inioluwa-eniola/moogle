@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "product sans";
+    background: #4285F4;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: product sans;
+    src: url(fonts/Product\ Sans\ Bold.ttf)
+}
+
+.container {
+    width: 50%;
+    max-width: 500px;
+    min-height: 300px;
+    height: auto;
+    max-width: 1000px;
+    margin-bottom: 100px;
+    background: #ffffff;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.google-logo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    padding-top: 50px;
+    margin-bottom: 30px
+}
+
+#google-blue {
+    color: 	#4285F4;
+}
+
+#google-red {
+    color: 	#EA4335;
+}
+
+#google-yellow {
+    color: #FBBC05;
+}
+
+#google-green {
+    color: #34A853;
+}
+
+.input-row {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ece6e6;
+    font-size: 20px;
+    position: relative;
+}
+
+.input-row input{
+    width: 270px;;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ece6e6;
+    font-size: 20px;
+    padding:  0px 15px;
+}
+
+.input-row input:focus {
+    outline: none;
+}
+.input-row button {
+    background: #ece6e6;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    aspect-ratio: 1;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    cursor: pointer;
+}
+
+
+.input-row button:hover {
+    background: #c3c3c3;
+    transition: 0.5s;
+}
+
+#recent {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 10px 100px 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li{
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-top: 0px;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    top: 10px;
+    left: 8px;
+
+}
+
+
+ul li span {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    right: 100px;
+    color: #555555;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+ul li span:hover{
+    background: #c3c3c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 2px;
+    right: 100px;
+}
+
+ul li .timer-img {
+    position: relative;
+    top: 3px;
+    right: 20px
+    
+}
+

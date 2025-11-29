@@ -1,0 +1,7 @@
+Things learnt 
+
+1. I practised embedding custom fonts in css 
+2. I practised nesting functions - somthing I struggled with before 
+3. I practised using the e.target.id and e.target.tagName
+
+<i class="fa-solid fa-timer"></i>
